@@ -20,11 +20,11 @@ export const useTyping = ({
 
   useEffect(() => {
     setCharIndex(charIndexRef.current)
-  }, [charIndexRef.current])
+  }, [])
 
   useEffect(() => {
     setPhraseIndex(phraseIndexRef.current)
-  }, [phraseIndexRef.current])
+  }, [])
 
   const keystroke = async () => {
     let nextDelay = speed
